@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">"hms4dms@gmail.com" 's  GMAIL Inbox</h1>
+    <table cellpadding="0" cellspacing="0" class="table table-striped table-bordered table-hover">
+        
+        @foreach (CustomerModel customer in (CustomerModel[])ViewBag.Customers)
+        {
+        <tr>
+            <td>
+            <h3> Subject : @customer.Subject </h3>
+            <h4> FROM: @customer.From </h4>
+            @Html.Raw(customer.MessageContent)</td>
+        </tr>
+        }
+    </table>
+</div>
+
+@section Styles {
+    <environment names="Development,Staging,Production">
+        <link rel="stylesheet" href="~/lib/dataTables/datatables.min.css" />
+    </environment>
+}

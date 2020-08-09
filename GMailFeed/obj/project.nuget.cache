@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "EKlQnFmu36Egs5CCOETd7trzoja0RR3q84E9OHMKjhLzuW0bQ3Tzk4mbPRUKpO00dlNulSp8hKHyzvc7O4m0mg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\ASP.NET GMailFeed\\GMailFeed\\GMailFeed.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\imapx\\2.0.0.18\\imapx.2.0.0.18.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ImapX 2.0.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "ImapX",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

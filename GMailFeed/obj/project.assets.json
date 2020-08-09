@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ImapX/2.0.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/net46/ImapX.dll": {}
+        },
+        "runtime": {
+          "lib/net46/ImapX.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImapX/2.0.0.18": {
+      "sha512": "L7teY0omaWETBSqAIsA/5bWvBxZFBGvieN9JmT0j5BOEx4xYpaQgXaCx4C7X+Fp/SQ8PSR1L3cHnxHOP0e3/IA==",
+      "type": "package",
+      "path": "imapx/2.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "imapx.2.0.0.18.nupkg.sha512",
+        "imapx.nuspec",
+        "lib/net20/ImapX.dll",
+        "lib/net30/ImapX.dll",
+        "lib/net35-client/ImapX.dll",
+        "lib/net35/ImapX.dll",
+        "lib/net40-client/ImapX.dll",
+        "lib/net40/ImapX.dll",
+        "lib/net45/ImapX.dll",
+        "lib/net451/ImapX.dll",
+        "lib/net452/ImapX.dll",
+        "lib/net46/ImapX.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ImapX >= 2.0.0.18"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\ASP.NET GMailFeed\\GMailFeed\\GMailFeed.csproj",
+      "projectName": "GMailFeed",
+      "projectPath": "D:\\Projects\\ASP.NET GMailFeed\\GMailFeed\\GMailFeed.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\ASP.NET GMailFeed\\GMailFeed\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "ImapX": {
+            "target": "Package",
+            "version": "[2.0.0.18, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ImapX 2.0.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "ImapX",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
